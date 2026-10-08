@@ -1,0 +1,50 @@
+MERIDIAN TECHNOLOGIES
+Employee Onboarding Guide
+Version 3.2 | People & Culture
+
+---
+
+WELCOME TO MERIDIAN TECHNOLOGIES
+
+This guide covers everything a new employee needs for their first 30 days. Please read it in full during your first week and refer to it whenever you have questions about standard procedures.
+
+YOUR FIRST DAY
+
+On arrival, report to Reception on the Ground Floor and ask for your designated onboarding buddy. Your buddy is a peer-level colleague assigned to help you navigate your first two weeks. HR will have communicated their name to you in advance.
+
+You will receive:
+- A temporary access badge (valid 7 days, replaced by your permanent badge after ID verification)
+- A laptop pre-configured with standard software
+- A printed floor map and department directory
+- Access credentials to your email and the internal portal (Meridian Connect)
+
+IT SETUP
+
+Your laptop will have core software installed: email client, Slack, Confluence, Jira, and standard productivity tools. Submit a ticket to the IT Helpdesk (helpdesk@meridian.tech) for any additional software requests. Non-standard software requires line manager approval before IT will install it.
+
+Your corporate email follows the format: firstname.lastname@meridian.tech
+
+30-DAY ONBOARDING SCHEDULE
+
+Week 1: Department orientation, system access setup, buddy introductions, mandatory compliance training (Information Security, Code of Conduct, Data Privacy). All four courses must be completed within 5 business days of start date.
+
+Week 2: Role-specific training with your line manager. Review of current team projects and priorities. Introduction meetings with key cross-functional stakeholders.
+
+Week 3–4: Begin contributing to assigned work. First 1-on-1 with line manager. Review personal development objectives for the first 90 days.
+
+PROBATION PERIOD
+
+All new hires are subject to a 90-day probation period. During probation, your performance will be assessed against the objectives set in week 3. A formal mid-probation check-in occurs at day 45. Successful completion of probation is confirmed in writing by your line manager with HR copied.
+
+KEY CONTACTS
+
+People & Culture team: people@meridian.tech
+IT Helpdesk: helpdesk@meridian.tech (or ext. 1100)
+Facilities: facilities@meridian.tech (or ext. 1200)
+Finance (expense queries): finance@meridian.tech
+
+INTERNAL RESOURCES
+
+All policies referenced in this guide are available in full on Meridian Connect under "Company Policies". The employee handbook is updated quarterly. If you are reading a printed copy, check the version date at the top of this document.
+
+Questions not answered here should be directed to your line manager or People & Culture.

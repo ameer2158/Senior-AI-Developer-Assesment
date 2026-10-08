@@ -1,0 +1,54 @@
+MERIDIAN TECHNOLOGIES
+Incident Reporting Procedure
+Version 1.6 | IT & Infosec / People & Culture
+
+---
+
+PURPOSE
+
+This procedure covers how Meridian employees report and escalate incidents. "Incident" refers to any unplanned event that disrupts normal operations or poses a risk to people, data, systems, clients, or Meridian's reputation. This includes IT and security incidents, workplace incidents (injuries, near misses), data breaches, and compliance violations.
+
+GUIDING PRINCIPLE
+
+Report first. Investigate later. Attempting to resolve or assess an incident before reporting it costs critical time and can worsen outcomes. When in doubt, report.
+
+INCIDENT CATEGORIES
+
+Category 1 — Critical: Immediate risk to personal safety, active data breach, system outage affecting clients or revenue, imminent regulatory breach. Requires immediate response.
+
+Category 2 — High: Security threat contained but not resolved, significant system degradation, suspected (but unconfirmed) data breach, workplace injury requiring medical attention.
+
+Category 3 — Medium: Minor service disruption, security vulnerability identified but not exploited, near-miss workplace incident with potential for harm.
+
+Category 4 — Low: Minor issues with no immediate risk, process deviations, equipment faults.
+
+HOW TO REPORT
+
+IT and Security Incidents:
+Immediately call the IT Security Hotline: ext. 1199 (internal) or +44 20 7946 1199 (external). For Category 1 incidents, also notify your line manager and the CISO directly.
+Follow up with a written report to security@meridian.tech within 2 hours (Category 1 or 2) or by end of business day (Category 3 or 4).
+
+Workplace Safety Incidents:
+Report to your line manager and Facilities (ext. 1200) immediately. For injuries requiring first aid or medical attention, call Facilities first — they hold the first aid register and can dispatch a first aider. All workplace incidents, including near-misses, are recorded in the Incident Register (Facilities manages this). Serious injuries are reported to the HSE under RIDDOR.
+
+Data Breach:
+See the Data Privacy & Handling Policy. Report to privacy@meridian.tech within 1 hour. Meridian has 72 hours to notify the ICO for breaches posing risk to individuals.
+
+RESPONSE TIMELINES
+
+Category 1: Incident response team assembled within 30 minutes. Communication to affected stakeholders within 1 hour.
+Category 2: Initial assessment within 2 hours. Stakeholder communication within 4 hours.
+Category 3: Response within 1 business day.
+Category 4: Logged and addressed within 5 business days.
+
+ROOT CAUSE AND POST-INCIDENT REVIEW
+
+All Category 1 and 2 incidents require a post-incident review (PIR) within 10 business days. The PIR identifies the root cause, immediate actions taken, and long-term preventive measures. PIRs are owned by the relevant department head and reviewed by the CISO (for security incidents) or COO (for operational incidents).
+
+PIR outputs are stored on Meridian Connect (Incident Archive) and inform annual risk assessments.
+
+WHISTLEBLOWING
+
+If you suspect an incident is being deliberately concealed, use the Speak Up Line (0800 123 4567, anonymous). This line is managed independently and reports directly to the Board. Retaliation against anyone who makes a good-faith report is a serious disciplinary matter.
+
+Incident Management team: incidents@meridian.tech

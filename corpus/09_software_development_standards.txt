@@ -1,0 +1,53 @@
+MERIDIAN TECHNOLOGIES
+Software Development Standards
+Version 2.3 | Engineering
+
+---
+
+PURPOSE
+
+These standards apply to all software produced at Meridian, whether internal tooling, client-facing products, or data pipelines. Adherence is required; deviations must be documented with technical justification and approved by the Engineering Lead.
+
+VERSION CONTROL
+
+All code must be stored in Meridian's GitHub Enterprise organisation. No exceptions. Personal GitHub accounts must not hold Meridian source code.
+
+Branch strategy follows GitHub Flow: main is always deployable. Feature branches are created from main, developed, reviewed, and merged via pull request. Branch names follow the convention: type/ticket-id-short-description (e.g. feat/MT-421-user-auth, fix/MT-509-null-pointer).
+
+Direct pushes to main are prohibited. All merges require at least one approved code review. Core library changes require two approvals.
+
+CODE REVIEW STANDARDS
+
+Pull requests must include: a clear description of what was changed and why, a link to the relevant Jira ticket, and evidence of local testing. Reviewers are expected to assess logic correctness, security implications, test coverage, and readability. Approving a PR without reading it is considered a conduct issue.
+
+Review turnaround SLA: 1 business day for standard PRs, 4 hours for hotfixes.
+
+TESTING
+
+Unit tests are required for all new functions and classes. Minimum code coverage target is 80%. Integration tests are required for any code that interacts with external systems (APIs, databases). End-to-end tests are required for critical user paths in customer-facing applications.
+
+Tests must run in CI on every PR. A PR cannot be merged if CI tests fail.
+
+SECURITY IN DEVELOPMENT
+
+Follow OWASP Top 10 guidelines. Security-sensitive code (authentication, authorisation, cryptography, data handling) requires review by a senior engineer with security sign-off.
+
+Secrets (API keys, passwords, tokens) must never be hardcoded or committed to source control. Use Meridian's secrets management tool (HashiCorp Vault) or environment variables managed through the CI/CD pipeline. Regular automated secret scanning runs on all repositories; findings are treated as critical incidents.
+
+DEPENDENCY MANAGEMENT
+
+Third-party dependencies must be reviewed before introduction. Prefer well-maintained libraries with active communities. All dependencies must be pinned to specific versions in lock files. Automated dependency scanning (Dependabot) is enabled on all repositories; critical and high-severity alerts must be resolved within 5 and 14 business days respectively.
+
+DOCUMENTATION
+
+Public APIs and shared libraries require documentation. Internal tooling requires a README sufficient for another developer to set up and run the project without assistance. Inline comments explain the why, not the what.
+
+DEPLOYMENT
+
+All deployments to production go through the CI/CD pipeline. Manual deployments are prohibited except in declared incidents, which must be documented in the incident log. Infrastructure-as-code (Terraform) is used for all cloud resources; no ad-hoc console changes.
+
+CODE STYLE
+
+Each language team maintains a style guide. Python follows PEP 8 with Black formatting. TypeScript uses ESLint with the Meridian config. Linting is enforced in CI.
+
+Engineering Lead: engineering@meridian.tech

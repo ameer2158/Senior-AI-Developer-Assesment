@@ -1,0 +1,4 @@
+langgraph==1.2.14
+chromadb==1.5.9
+sentence-transformers==6.1.0
+openai==3.26.1

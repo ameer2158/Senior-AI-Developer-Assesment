@@ -1,0 +1,52 @@
+MERIDIAN TECHNOLOGIES
+Meeting & Communication Guidelines
+Version 1.2 | People & Culture
+
+---
+
+INTRODUCTION
+
+Effective communication is one of Meridian's operational priorities. These guidelines exist to reduce meeting overload, improve decision quality, and ensure information reaches the right people efficiently.
+
+MEETING PRINCIPLES
+
+Before scheduling a meeting, ask: could this be an email, a Slack message, or a document? If the answer is yes, use that instead. Meetings are for discussion, decision-making, and complex problem-solving — not for status updates that could be written down.
+
+Every meeting must have: a stated purpose, an agenda shared at least 24 hours in advance, a designated facilitator, and a named note-taker. Meetings without an agenda may be declined by invitees without explanation.
+
+MEETING DURATION AND SIZE
+
+Standard meeting lengths are 25 or 50 minutes (leaving 5–10 minutes between back-to-back meetings). 60- and 90-minute meetings require justification. Recurring meetings must be reviewed every quarter; cancel any that no longer serve a clear purpose.
+
+Invite only people who are necessary. A decision meeting should not exceed 8 attendees. "For awareness" attendees should receive the written summary instead of a calendar invitation.
+
+REMOTE AND HYBRID MEETINGS
+
+When any participant is remote, all participants join via video individually (no conference room "single camera" setups that disadvantage remote participants). Camera use is expected unless bandwidth or personal circumstances prevent it. Meeting recordings require consent from all participants and must be stored in the designated Teams channel, not personal storage.
+
+DECISIONS AND FOLLOW-UPS
+
+Meetings that make decisions must document: what was decided, who is responsible for each action, and the due date. This summary must be shared in the relevant Slack channel or email thread within 2 hours of the meeting ending. Decisions not documented within 24 hours are considered undecided.
+
+COMMUNICATION CHANNELS
+
+Slack is the primary tool for real-time communication. Use the correct channel for the topic — avoid DMs for work that others might need visibility of. Mark messages that require a response as such (use the "remind me" feature rather than leaving them as unread indefinitely). Response time expectation during working hours: within 2 hours for standard messages, within 30 minutes if marked urgent.
+
+Email is for formal communication, external correspondence, and anything that needs a documented record. Do not use email for internal operational discussions.
+
+Confluence is for documentation: policies, project plans, decision records, and technical documentation. Keep pages up to date — outdated Confluence pages are worse than no documentation.
+
+RESPONSE TIME STANDARDS
+
+Slack (standard): 2 hours during working hours
+Slack (urgent): 30 minutes during working hours
+Email (internal): same business day
+Email (external, client-facing): 4 hours during business hours
+
+Out-of-hours messages: employees are not expected to respond outside working hours unless they are on-call or have agreed otherwise with their manager. Managers must not create an implicit expectation of out-of-hours availability.
+
+COMMUNICATION ETIQUETTE
+
+Write with clarity and brevity. State the action required (if any) at the top of the message. Avoid passive-aggressive communication, excessive copying of managers, or using communication as a paper trail for disputes — raise concerns directly with People & Culture.
+
+Questions: people@meridian.tech

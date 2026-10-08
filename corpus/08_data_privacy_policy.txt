@@ -1,0 +1,49 @@
+MERIDIAN TECHNOLOGIES
+Data Privacy & Handling Policy
+Version 3.1 | Legal & Compliance
+
+---
+
+SCOPE AND LEGAL BASIS
+
+Meridian Technologies processes personal data in accordance with the UK GDPR and the Data Protection Act 2018. This policy applies to all employees, contractors, and third parties who handle personal data on Meridian's behalf. Violations may constitute a criminal offence.
+
+PERSONAL DATA WE PROCESS
+
+Meridian processes personal data relating to employees (payroll, performance, health where declared), clients and prospects (contact data, usage data), and suppliers and partners (contact data, contractual data). All processing must have a lawful basis: consent, contract, legal obligation, vital interest, public task, or legitimate interest.
+
+DATA MINIMISATION
+
+Collect only the personal data necessary for the stated purpose. Do not request, store, or process data beyond what the task requires. When a process is complete, personal data must be retained only as long as required by law or legitimate business need, then securely deleted.
+
+STORAGE AND ACCESS
+
+Personal data must be stored in Meridian-approved systems only. Approved systems include: Meridian Connect (HR data), Salesforce (client data), and the company's cloud data warehouse for analytics. Personal data must not be stored in email attachments, shared drives without access controls, or personal accounts.
+
+Access to personal data is granted on the principle of least privilege — employees have access only to the data required for their role. Requests for additional access require manager and Data Protection Officer (DPO) approval.
+
+DATA SUBJECT RIGHTS
+
+Individuals whose data Meridian holds have rights under UK GDPR including: right of access (subject access request), right to rectification, right to erasure ("right to be forgotten"), right to restrict processing, right to data portability, and right to object.
+
+All data subject requests must be forwarded to privacy@meridian.tech within 24 hours of receipt. Meridian must respond within 30 calendar days. Do not attempt to fulfil a data subject request yourself — route it to the Privacy team.
+
+THIRD-PARTY PROCESSORS
+
+Any third party processing personal data on Meridian's behalf must have a Data Processing Agreement (DPA) in place before data transfer. Procurement must verify DPA status before onboarding any new supplier who will handle personal data. Existing DPAs are reviewed annually.
+
+DATA TRANSFERS OUTSIDE THE UK
+
+Transferring personal data to countries without an adequacy decision requires specific safeguards (Standard Contractual Clauses, Binding Corporate Rules). Contact privacy@meridian.tech before initiating any international data transfer.
+
+BREACH REPORTING
+
+A personal data breach (any accidental or unlawful destruction, loss, alteration, or disclosure of personal data) must be reported to privacy@meridian.tech immediately — within 1 hour of discovery. Meridian is legally required to notify the ICO within 72 hours of becoming aware of a breach that poses a risk to individuals.
+
+Do not delay reporting. Early reports that turn out to be minor are preferable to late reports of serious breaches.
+
+DATA PROTECTION OFFICER
+
+Meridian's DPO is available at privacy@meridian.tech. The DPO provides guidance on data protection questions and is the point of contact for the ICO.
+
+All employees complete annual Data Privacy training via Meridian Connect. Certificate of completion is recorded automatically.

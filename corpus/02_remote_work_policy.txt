@@ -1,0 +1,47 @@
+MERIDIAN TECHNOLOGIES
+Remote Work Policy
+Version 2.1 | People & Culture
+
+---
+
+SCOPE
+
+This policy applies to all full-time and part-time employees in roles designated as remote-eligible. Contract workers and interns follow the terms of their individual agreements. Role eligibility is determined by the department head in consultation with People & Culture.
+
+HYBRID WORK ARRANGEMENT
+
+Meridian operates a hybrid model. Employees in remote-eligible roles are expected to be in the office a minimum of 2 days per week. The specific days are set by each department head and communicated at team level. Employees may request exceptions for specific weeks (travel, personal circumstances) via their line manager.
+
+Fully remote arrangements (0 office days) require approval from the department head and VP of People & Culture, and are reviewed every 6 months.
+
+ELIGIBILITY REQUIREMENTS
+
+To work remotely, an employee must:
+- Have completed their 90-day probation period
+- Have a home workspace that meets Meridian's ergonomic and data security standards (self-certified via the Remote Work Checklist on Meridian Connect)
+- Maintain the same core working hours as their team (09:00–17:00 local time unless flexible hours have been agreed separately)
+- Have no active performance improvement plan
+
+EQUIPMENT AND EXPENSES
+
+Meridian provides a one-time Remote Work Setup Allowance of £500 for eligible employees to purchase ergonomic equipment (chair, desk, monitor, peripherals). Receipts must be submitted within 90 days of approval via the Expense Portal. Internet costs are not reimbursed.
+
+Meridian-issued equipment remains company property and must be returned if the employee leaves or the remote arrangement is revoked.
+
+DATA SECURITY WHILE REMOTE
+
+Employees must use the Meridian VPN at all times when accessing company systems from outside the office. Personal devices may not be used for work unless enrolled in Meridian's Mobile Device Management (MDM) program. Working from public Wi-Fi without the VPN active is prohibited.
+
+Sensitive documents must not be printed at home. Physical documents containing confidential information must be shredded using a cross-cut shredder; employees are responsible for their own shredding equipment at the home office.
+
+PERFORMANCE EXPECTATIONS
+
+Remote working does not change performance expectations. Employees are expected to be reachable during core hours, attend all scheduled meetings (camera on unless bandwidth is limited), and meet their objectives on the same timeline as on-site colleagues.
+
+Persistent unavailability during core hours without advance notice is treated as an attendance issue and escalated to People & Culture.
+
+REVIEW AND REVOCATION
+
+Remote eligibility is reviewed annually as part of the performance review cycle. It may be revoked at any time with 2 weeks' notice if business needs change, if performance deteriorates, or if security standards are not maintained.
+
+Questions: people@meridian.tech

@@ -1,0 +1,49 @@
+MERIDIAN TECHNOLOGIES
+Learning & Development Policy
+Version 1.5 | People & Culture
+
+---
+
+COMMITMENT TO GROWTH
+
+Meridian believes that continuous learning is essential to individual and organisational success. This policy sets out the support available to employees for professional development and how to access it.
+
+ANNUAL LEARNING BUDGET
+
+Every permanent employee who has completed their probation period is allocated an annual Learning & Development (L&D) budget of £1,500. This budget is use-it-or-lose-it and resets on 1 January each year. It may be used for:
+- External training courses and workshops
+- Professional certifications and examination fees
+- Relevant conferences (registration fee only; travel and accommodation are covered separately under the Travel & Expense Policy)
+- Books, online learning subscriptions (e.g. Coursera, Pluralsight, O'Reilly), and other self-study materials
+
+The budget cannot be used for hobbies unrelated to the role, or for courses taken before approval is granted.
+
+HOW TO ACCESS THE BUDGET
+
+Submit a learning request via Meridian Connect (People & Culture → Learning & Development → Submit Request). Include the course/resource name, provider, cost, and a brief justification explaining how it supports your role or development objectives. Your line manager approves requests up to £500. Requests above £500 require both line manager and department head approval. Turnaround is typically 5 business days.
+
+INTERNAL TRAINING PROGRAMMES
+
+Meridian runs the following internal programmes at no cost to the employee's L&D budget:
+- Meridian Leadership Academy: 12-week programme for senior individual contributors and new managers (twice yearly intake, nomination by department head)
+- Technical Skills Series: Monthly half-day workshops covering engineering, data, and analytics topics (open to all)
+- Lunch & Learn: Weekly informal sessions hosted by employees sharing expertise (voluntary, recorded)
+- Mandatory Compliance Training: Information Security, Data Privacy, Code of Conduct, and Anti-Bribery — all must be renewed annually
+
+STUDY LEAVE
+
+Employees sitting professional examinations are entitled to up to 2 days paid study leave per examination, taken in the 5 working days before the exam date. This requires line manager approval and does not count against annual leave.
+
+PROFESSIONAL MEMBERSHIPS
+
+Meridian will fund one professional membership per employee per year (e.g. BCS, CIPD, CIMA, IEEE) up to £250. This is separate from the L&D budget. Submit via the same request form, selecting "Professional Membership" as the category.
+
+MENTORING PROGRAMME
+
+Meridian operates a voluntary internal mentoring programme. Employees can register as a mentor, a mentee, or both via Meridian Connect. Matches are made quarterly by the L&D team. Mentoring meetings are considered working time and should not be scheduled to exceed 2 hours per month.
+
+TRAINING AGREEMENT
+
+For training costing over £2,000, a training agreement applies. If the employee leaves Meridian within 12 months of completing the training, they are required to repay a pro-rated portion of the cost (100% within 3 months, 50% within 3–12 months). This is waived if the departure is due to redundancy.
+
+Contact: people@meridian.tech (L&D team)

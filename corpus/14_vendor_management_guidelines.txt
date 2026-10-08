@@ -1,0 +1,52 @@
+MERIDIAN TECHNOLOGIES
+Vendor Management Guidelines
+Version 1.4 | Procurement & Legal
+
+---
+
+SCOPE
+
+These guidelines apply to the procurement of all goods and services from external suppliers and contractors. All employees involved in purchasing decisions or supplier relationships must comply. Unauthorised procurement (purchasing outside this process) is a policy violation and may result in Meridian refusing to honour the payment.
+
+SUPPLIER ONBOARDING
+
+Before engaging a new supplier, the requesting employee must:
+1. Complete the Supplier Onboarding Form on Meridian Connect (Procurement → New Supplier)
+2. Obtain at least two alternative quotes for contracts valued over £5,000
+3. Submit for approval: line manager (under £10,000), Procurement team (£10,000–£50,000), CFO (over £50,000)
+
+New suppliers processing personal data on Meridian's behalf must have a signed Data Processing Agreement (DPA) before any data is shared. Contact Legal (legal@meridian.tech) to obtain the standard DPA template.
+
+Suppliers providing IT products or services undergo a security assessment by the IT Security team before onboarding. Allow 5–10 business days for this review.
+
+CONTRACT REQUIREMENTS
+
+All supplier engagements over £1,000 must be governed by a written contract. Using a supplier's own standard terms requires Legal review. Meridian's standard supplier terms are available on Meridian Connect; use these by default.
+
+Contracts must specify: scope of work, pricing and payment terms, intellectual property ownership (all work produced for Meridian must be assigned to Meridian), confidentiality obligations, data handling requirements, termination rights, and liability caps.
+
+Auto-renewal clauses must be flagged to Procurement at least 90 days before the renewal date to allow review.
+
+PREFERRED SUPPLIERS
+
+Meridian maintains a Preferred Supplier List (PSL) for common categories (travel, IT hardware, office supplies, recruitment agencies, legal counsel). Procurement from PSL suppliers does not require additional quotes below £50,000. Use PSL suppliers as default; deviations require Procurement approval.
+
+The PSL is reviewed and updated quarterly. Requests to add or remove suppliers can be submitted to procurement@meridian.tech.
+
+SUPPLIER PERFORMANCE
+
+For strategic suppliers (annual spend over £100,000), quarterly business reviews (QBRs) are conducted by the Procurement team with the supplier and the internal stakeholder. QBRs assess delivery quality, SLA compliance, pricing, and relationship health. Findings are documented in Meridian Connect.
+
+Suppliers consistently failing SLAs are issued a formal notice and given 30 days to remediate. Persistent failure triggers a supplier exit process.
+
+CONFLICTS OF INTEREST
+
+Employees must not participate in supplier selection if they have a personal relationship with (or financial interest in) the supplier. Disclose any potential conflict to Procurement and People & Culture before the process begins. Undisclosed conflicts are treated as a serious conduct matter.
+
+Gifts from suppliers must be declared per the Code of Conduct. Accepting gifts that could influence a procurement decision is grounds for disciplinary action.
+
+PAYMENT TERMS
+
+Standard payment terms are 30 days from invoice receipt unless otherwise negotiated. Suppliers requesting shorter terms require CFO approval. Do not commit to non-standard payment terms verbally — all terms must be in the contract.
+
+Contact: procurement@meridian.tech

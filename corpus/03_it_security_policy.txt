@@ -1,0 +1,55 @@
+MERIDIAN TECHNOLOGIES
+IT Security Policy
+Version 4.0 | IT & Infosec
+
+---
+
+PURPOSE
+
+This policy establishes the minimum security standards all employees must follow when using Meridian's systems, data, and networks. Compliance is mandatory. Violations may result in disciplinary action up to and including termination.
+
+PASSWORD AND ACCESS MANAGEMENT
+
+All employee accounts must use passwords of at least 14 characters combining uppercase, lowercase, numbers, and symbols. Passwords must not be reused within the last 12 cycles. Multi-factor authentication (MFA) is mandatory for all systems that support it — this is not optional.
+
+Employees must not share passwords, access tokens, or credentials with colleagues, contractors, or third parties under any circumstances. If you suspect your credentials have been compromised, notify the IT Helpdesk immediately (helpdesk@meridian.tech or ext. 1100) and change your password without delay.
+
+DEVICE SECURITY
+
+All company-issued devices must have full-disk encryption enabled (configured by IT at setup). Auto-lock must be set to 5 minutes or less. Devices must not be left unattended and unlocked in public spaces.
+
+Personal devices accessing Meridian systems must be enrolled in the MDM program. Rooted or jailbroken devices are not permitted.
+
+If a device is lost or stolen, report it immediately to IT Helpdesk and People & Culture. IT will remotely wipe the device within 4 hours of the report.
+
+NETWORK USE
+
+Use the Meridian VPN when connecting from any network outside the office. Public Wi-Fi must never be used for company work without the VPN active. Splitting tunnelling is disabled by policy — all traffic routes through the VPN.
+
+Do not connect unauthorised devices (personal routers, smart speakers, IoT devices) to the office network.
+
+EMAIL AND PHISHING
+
+Meridian uses automated anti-phishing filters, but employees are the last line of defence. Do not click links or open attachments from unexpected or suspicious sources. If in doubt, forward the email to security@meridian.tech before acting on it.
+
+Meridian will never ask for your password by email. If you receive such a request, report it immediately.
+
+DATA CLASSIFICATION AND HANDLING
+
+Meridian data is classified as: Public, Internal, Confidential, and Restricted. Default classification for all undocumented data is Confidential.
+
+Restricted data (personal employee data, financial records, intellectual property) must be stored only in approved Meridian systems, never in personal cloud storage (Dropbox, personal Google Drive, etc.). Transmission of Restricted data outside Meridian systems requires written approval from the CISO.
+
+SOFTWARE AND UPDATES
+
+Do not install unauthorised software on company devices. All approved software is available via the Meridian Software Catalogue. System and software updates must not be deferred for more than 48 hours after notification.
+
+INCIDENT REPORTING
+
+Any suspected security incident — data breach, malware, unauthorised access — must be reported to security@meridian.tech within 1 hour of discovery. Do not attempt to investigate or remediate an incident yourself.
+
+The IT Security team conducts annual penetration tests and quarterly phishing simulations. Cooperation is required.
+
+POLICY EXCEPTIONS
+
+Exceptions require written approval from the CISO. Submit requests to security@meridian.tech with a business justification.

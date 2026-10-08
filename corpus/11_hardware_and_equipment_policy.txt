@@ -1,0 +1,45 @@
+MERIDIAN TECHNOLOGIES
+Hardware & Equipment Policy
+Version 1.9 | IT
+
+---
+
+STANDARD EQUIPMENT ALLOCATION
+
+All permanent employees receive standard equipment on their first day. The standard allocation depends on role:
+
+Engineering and Data roles: MacBook Pro 14" (M3, 16GB RAM, 512GB SSD), external monitor (27"), keyboard, mouse, headset.
+Non-technical roles: MacBook Air 13" (M2, 8GB RAM, 256GB SSD), keyboard, mouse.
+Management (Senior Manager and above): MacBook Pro 14" or 16" (M3, 32GB RAM, 1TB SSD), 2x external monitors, webcam, conference headset.
+
+Non-standard equipment requests (standing desks, ergonomic keyboards, specialist peripherals) must be submitted via IT Helpdesk with a business or medical justification. Medical requests (supported by occupational health assessment) take priority.
+
+EQUIPMENT LIFECYCLE
+
+Laptops are refreshed every 3 years. Monitors every 5 years. Peripherals are replaced on failure or when clearly no longer fit for purpose. Employees cannot request a refresh before the scheduled date without a fault report.
+
+When a laptop reaches end of life, IT will arrange a swap appointment. Old devices are wiped (to NCSC standard) and disposed of via an accredited recycler. Employees must not dispose of company equipment themselves.
+
+CARE AND RESPONSIBILITY
+
+Employees are responsible for the equipment assigned to them. Equipment must be kept in reasonable condition. Accidental damage should be reported to IT Helpdesk; the first incident per employee per year is covered by Meridian. Repeated damage or negligent handling may result in the employee bearing repair costs.
+
+Deliberate damage or unauthorised modifications (removing asset tags, installing hardware not approved by IT) is a disciplinary matter.
+
+EQUIPMENT ASSIGNED TO INDIVIDUALS
+
+All equipment is tracked in Meridian's asset management system by serial number and assigned employee. Employees must not transfer equipment to colleagues without going through IT. When an employee leaves, all equipment must be returned to IT on or before their last working day. Outstanding returns are followed up with the employee's manager and, if necessary, deducted from final salary within legal limits.
+
+MOBILE PHONES
+
+Company mobile phones are provided to employees who require them for their role (assessed by line manager). The standard handset is iPhone 15. SIM-only plans are available for personal devices enrolled in MDM. Personal calls on company phones are permitted within reasonable limits; excessive personal use will be flagged.
+
+HOME OFFICE EQUIPMENT
+
+Employees approved for remote work may request equipment from IT to supplement their home setup. The Remote Work Setup Allowance (see Remote Work Policy) covers peripherals not provided by IT. Company-issued equipment at home is subject to the same care and return obligations as office equipment.
+
+LOST OR STOLEN EQUIPMENT
+
+Report immediately to IT Helpdesk (ext. 1100) and People & Culture. IT will remotely wipe the device. A police crime reference number is required for insurance purposes if the item was stolen.
+
+Contact: helpdesk@meridian.tech or ext. 1100

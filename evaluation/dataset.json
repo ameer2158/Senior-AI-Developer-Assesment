@@ -1,0 +1,197 @@
+{
+  "cases": [
+    {
+      "id": "docs_password_length",
+      "category": "docs",
+      "question": "What is the minimum password length?",
+      "expected_route": "docs",
+      "expected_facts": ["14 characters"],
+      "expected_sources": ["03_it_security_policy.txt"],
+      "must_refuse": false,
+      "retrieval": [
+        {"query": "What is the minimum password length?", "source": "03_it_security_policy.txt", "section": "PASSWORD AND ACCESS MANAGEMENT"}
+      ]
+    },
+    {
+      "id": "docs_learning_budget",
+      "category": "docs",
+      "question": "How much is the annual learning and development budget?",
+      "expected_route": "docs",
+      "expected_facts": ["£1,500"],
+      "expected_sources": ["07_learning_and_development_policy.txt"],
+      "must_refuse": false,
+      "retrieval": [
+        {"query": "How much is the annual learning and development budget?", "source": "07_learning_and_development_policy.txt", "section": "ANNUAL LEARNING BUDGET"}
+      ]
+    },
+    {
+      "id": "docs_london_hotel",
+      "category": "docs",
+      "question": "What is the hotel limit in London?",
+      "expected_route": "docs",
+      "expected_facts": ["£200"],
+      "expected_sources": ["04_travel_and_expense_policy.txt"],
+      "must_refuse": false,
+      "retrieval": [
+        {"query": "What is the hotel limit in London?", "source": "04_travel_and_expense_policy.txt", "section": "ACCOMMODATION"}
+      ]
+    },
+    {
+      "id": "sql_vega_lead_location",
+      "category": "sql",
+      "question": "Who leads Project Vega and where are they located?",
+      "expected_route": "sql",
+      "expected_facts": ["James Okafor", "London"],
+      "expected_sources": ["meridian.db"],
+      "must_refuse": false,
+      "verify_sql": "SELECT e.name, e.location FROM projects p JOIN employees e ON e.id = p.lead_id WHERE p.name = 'Project Vega'"
+    },
+    {
+      "id": "sql_remote_data_ai",
+      "category": "sql",
+      "question": "Which active employees in Data & AI work remotely?",
+      "expected_route": "sql",
+      "expected_facts": ["David Osei", "Mei Tanaka"],
+      "expected_sources": ["meridian.db"],
+      "must_refuse": false,
+      "verify_sql": "SELECT e.name FROM employees e JOIN departments d ON d.id = e.department_id WHERE d.name = 'Data & AI' AND e.location = 'Remote' AND e.is_active = 1"
+    },
+    {
+      "id": "sql_engineering_headcount",
+      "category": "sql",
+      "question": "How many active employees work in the Engineering department?",
+      "expected_route": "sql",
+      "expected_facts": ["6"],
+      "expected_sources": ["meridian.db"],
+      "must_refuse": false,
+      "verify_sql": "SELECT COUNT(*) AS active_engineering FROM employees e JOIN departments d ON d.id = e.department_id WHERE d.name = 'Engineering' AND e.is_active = 1"
+    },
+    {
+      "id": "sql_active_projects",
+      "category": "sql",
+      "question": "How many projects are currently active?",
+      "expected_route": "sql",
+      "expected_facts": ["7"],
+      "expected_sources": ["meridian.db"],
+      "must_refuse": false,
+      "verify_sql": "SELECT COUNT(*) AS active_projects FROM projects WHERE status = 'Active'"
+    },
+    {
+      "id": "both_aisha_equipment",
+      "category": "both",
+      "question": "What is Aisha Patel's role, what standard laptop does the hardware policy give someone in that role, and how much is the remote work setup allowance?",
+      "expected_route": "both",
+      "expected_facts": ["Software Engineer", "MacBook Pro 14", "£500"],
+      "expected_sources": ["meridian.db", "11_hardware_and_equipment_policy.txt", "02_remote_work_policy.txt"],
+      "must_refuse": false,
+      "verify_sql": "SELECT name, role, location FROM employees WHERE name = 'Aisha Patel'",
+      "retrieval": [
+        {"query": "standard laptop for engineering roles", "source": "11_hardware_and_equipment_policy.txt", "section": "STANDARD EQUIPMENT ALLOCATION"},
+        {"query": "remote work setup allowance", "source": "02_remote_work_policy.txt", "section": "EQUIPMENT AND EXPENSES"}
+      ]
+    },
+    {
+      "id": "both_vega_hotel",
+      "category": "both",
+      "question": "Who leads Project Vega, and what is the nightly hotel limit in London?",
+      "expected_route": "both",
+      "expected_facts": ["James Okafor", "£200"],
+      "expected_sources": ["meridian.db", "04_travel_and_expense_policy.txt"],
+      "must_refuse": false,
+      "verify_sql": "SELECT e.name FROM projects p JOIN employees e ON e.id = p.lead_id WHERE p.name = 'Project Vega'",
+      "retrieval": [
+        {"query": "nightly hotel limit in London", "source": "04_travel_and_expense_policy.txt", "section": "ACCOMMODATION"}
+      ]
+    },
+    {
+      "id": "unsupported_pet_insurance",
+      "category": "unsupported",
+      "question": "Does Meridian provide pet insurance?",
+      "expected_route": "docs",
+      "expected_facts": [],
+      "expected_sources": [],
+      "must_refuse": true,
+      "absent_from_corpus": ["pet insurance"]
+    },
+    {
+      "id": "unsupported_share_scheme",
+      "category": "unsupported",
+      "question": "Does Meridian offer employees a share option or stock purchase scheme?",
+      "expected_route": "docs",
+      "expected_facts": [],
+      "expected_sources": [],
+      "must_refuse": true,
+      "absent_from_corpus": ["share option", "stock"]
+    },
+    {
+      "id": "no_match_project",
+      "category": "no_match",
+      "question": "Who leads Project Phoenix?",
+      "expected_route": "sql",
+      "expected_facts": [],
+      "expected_sources": [],
+      "must_refuse": true,
+      "verify_sql": "SELECT name FROM projects WHERE name LIKE '%Phoenix%'",
+      "expect_no_rows": true
+    }
+  ],
+  "conversations": [
+    {
+      "id": "memory_vega_location",
+      "bonus": "session memory",
+      "turns": [
+        {
+          "question": "Who leads Project Vega?",
+          "expected_route": "sql",
+          "expected_facts": ["James Okafor"],
+          "expected_sources": ["meridian.db"],
+          "must_refuse": false,
+          "verify_sql": "SELECT e.name FROM projects p JOIN employees e ON e.id = p.lead_id WHERE p.name = 'Project Vega'"
+        },
+        {
+          "question": "Where is he located?",
+          "expected_route": "sql",
+          "expected_facts": ["London"],
+          "expected_sources": ["meridian.db"],
+          "must_refuse": false,
+          "verify_sql": "SELECT location FROM employees WHERE name = 'James Okafor'"
+        }
+      ]
+    },
+    {
+      "id": "memory_hotel_follow_up",
+      "bonus": "session memory",
+      "turns": [
+        {
+          "question": "What is the hotel limit in London?",
+          "expected_route": "docs",
+          "expected_facts": ["£200"],
+          "expected_sources": ["04_travel_and_expense_policy.txt"],
+          "must_refuse": false
+        },
+        {
+          "question": "And in other UK cities?",
+          "expected_route": "docs",
+          "expected_facts": ["£150"],
+          "expected_sources": ["04_travel_and_expense_policy.txt"],
+          "must_refuse": false
+        }
+      ]
+    }
+  ],
+  "sql_safety": [
+    {"name": "valid select", "sql": "SELECT name FROM employees WHERE id = 2", "expect": "ok", "contains": "James Okafor"},
+    {"name": "valid with-select", "sql": "WITH active AS (SELECT name FROM projects WHERE status = 'Active') SELECT name FROM active", "expect": "ok", "contains": "Project Atlas"},
+    {"name": "keyword inside a string is allowed", "sql": "SELECT name FROM employees WHERE id = 1 AND name NOT LIKE '%update%'", "expect": "ok", "contains": "Sarah Chen"},
+    {"name": "row cap", "sql": "WITH RECURSIVE n(x) AS (SELECT 1 UNION ALL SELECT x + 1 FROM n WHERE x < 100) SELECT x FROM n", "expect": "ok", "max_rows": 30},
+    {"name": "reject insert", "sql": "INSERT INTO employees (id, name) VALUES (99, 'x')", "expect": "error"},
+    {"name": "reject update", "sql": "UPDATE employees SET salary_gbp = 1 WHERE id = 1", "expect": "error"},
+    {"name": "reject delete hidden behind WITH", "sql": "WITH x AS (SELECT 1) DELETE FROM employees", "expect": "error"},
+    {"name": "reject drop", "sql": "DROP TABLE employees", "expect": "error"},
+    {"name": "reject two statements", "sql": "SELECT name FROM employees; DROP TABLE employees", "expect": "error"},
+    {"name": "reject attach", "sql": "ATTACH DATABASE 'other.db' AS other", "expect": "error"},
+    {"name": "reject pragma", "sql": "PRAGMA query_only = OFF", "expect": "error"},
+    {"name": "reject load_extension", "sql": "SELECT load_extension('evil')", "expect": "error"},
+    {"name": "stop a runaway query", "sql": "WITH RECURSIVE n(x) AS (SELECT 1 UNION ALL SELECT x + 1 FROM n) SELECT COUNT(*) FROM n", "expect": "error", "error_contains": "second limit"}
+  ]
+}
