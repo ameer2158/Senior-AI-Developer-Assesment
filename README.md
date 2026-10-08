@@ -2,13 +2,15 @@
 
 Multi-source conversational agent combining company policy documents and structured SQLite data using LangGraph, ChromaDB, sentence-transformers, and NVIDIA Nemotron.
 
-![Meridian Conversational AI Agent flow](docs/meridian_agent_flow.png)
-
 ## Challenge
 
 The assessment asked for a local conversational agent that answers natural-language questions from two sources: 15 company policy documents and a SQLite database of employees, departments, and projects. The agent must decide whether a question belongs in the documents, the database, or both, then return a single grounded answer.
 
 Routing has to be explicit in the code. When the retrieved evidence is insufficient, the agent must say so rather than invent an answer. The stack is constrained to Python, LangGraph, ChromaDB, sqlite3, and sentence-transformers, with retrieval implemented directly (no LlamaIndex and no LangChain pre-built RAG chains). Live generation uses NVIDIA NIM: `nvidia/nemotron-3.5-lightning-30b-a3b` at `https://integrate.api.nvidia.com/v1`.
+
+## Architecture
+
+![Meridian Conversational AI Agent flow](docs/meridian_agent_flow.png)
 
 ## How it works
 
@@ -117,7 +119,7 @@ Offline E2E (stubbed LLM boundary) exercises the real LangGraph, retrieval, and 
 │   └── run_evaluation.py
 └── docs/
     ├── meridian_agent_flow.png
-    ├── architecture.excalidraw
+    ├── Meridian Conversational AI Agent - flow.excalidraw
     └── project_overview.md
 ```
 
