@@ -95,6 +95,9 @@ def main() -> None:
         embeddings=embeddings.tolist(),
         metadatas=metadatas,
     )
+    stale = [existing for existing in collection.get(include=[])["ids"] if existing not in set(ids)]
+    if stale:
+        collection.delete(ids=stale)
     print(f"Indexed {len(files)} documents, {len(ids)} chunks.")
 
 

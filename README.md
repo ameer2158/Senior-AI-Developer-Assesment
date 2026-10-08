@@ -107,6 +107,7 @@ Offline E2E (stubbed LLM boundary) exercises the real LangGraph, retrieval, and 
 ├── setup_database.py
 ├── requirements.txt
 ├── README.md
+├── USAGE.md
 ├── AI_PROMPT_LOG.md
 ├── DEMO.md
 ├── corpus/
@@ -175,4 +176,4 @@ These cover documents, SQL, both sources, and an unsupported-information case. A
 - What is Aisha Patel's role, what standard laptop does the hardware policy give that role, and how much is the remote work setup allowance?
 - Does Meridian provide pet insurance?
 
-Representative prompts used during development are in [`AI_PROMPT_LOG.md`](AI_PROMPT_LOG.md).
+Step-by-step run, evaluation, and troubleshooting instructions are in [`USAGE.md`](USAGE.md). Representative prompts used during development are in [`AI_PROMPT_LOG.md`](AI_PROMPT_LOG.md).

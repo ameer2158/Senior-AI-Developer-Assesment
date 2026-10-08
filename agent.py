@@ -179,7 +179,9 @@ def search_documents(query: str, top_k: int = 4) -> list[dict[str, str | float]]
     return hits
 
 
-def _authorize(action: int, *_: object) -> int:
+def _authorize(action: int, arg1: object = None, *_: object) -> int:
+    if action == sqlite3.SQLITE_FUNCTION and str(arg1).lower() == "load_extension":
+        return sqlite3.SQLITE_DENY
     return sqlite3.SQLITE_OK if action in ALLOWED_SQL_ACTIONS else sqlite3.SQLITE_DENY
 
 
