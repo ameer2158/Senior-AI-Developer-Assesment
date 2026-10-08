@@ -10,7 +10,9 @@ Routing has to be explicit in the code. When the retrieved evidence is insuffici
 
 ## Architecture
 
-![Meridian Conversational AI Agent flow](docs/meridian_agent_flow.png)
+### Flow diagram
+
+![Flow diagram](docs/flow_diagram.png)
 
 ## How it works
 
@@ -118,6 +120,7 @@ Offline E2E (stubbed LLM boundary) exercises the real LangGraph, retrieval, and 
 │   ├── dataset.json
 │   └── run_evaluation.py
 └── docs/
+    ├── flow_diagram.png
     ├── meridian_agent_flow.png
     ├── Meridian Conversational AI Agent - flow.excalidraw
     └── project_overview.md
